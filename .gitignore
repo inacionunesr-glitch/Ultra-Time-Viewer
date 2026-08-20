@@ -1,2 +1,11 @@
+# Python
 __pycache__/
 *.py[cod]
+.venv/
+venv/
+.env
+
+# PyInstaller
+main.spec
+build/
+dist/

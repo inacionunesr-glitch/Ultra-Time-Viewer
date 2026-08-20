@@ -384,6 +384,9 @@ class App:
     def run(self):
         self.root.mainloop()
 
+    def set_icon(self, icon_path):
+        self.root.iconbitmap(icon_path)
+
 
 if __name__ == "__main__":
 
